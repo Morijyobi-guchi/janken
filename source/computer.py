@@ -1,3 +1,4 @@
+import random
 def cpu_pon():
     # CPUの手をランダムに選択
     cpu_choice = random.choice([1, 2, 3])
@@ -7,3 +8,4 @@ def cpu_pon():
         return "チョキ"
     else:
         return "パー"
+    
