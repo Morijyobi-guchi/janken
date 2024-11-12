@@ -9,8 +9,4 @@ def judge(cpu_hand, user_hand):
     else:
         return "ユーザの勝ち"
 
-# 関数の使用例
-cpu_hand = "グー"  # 例: CPUの手
-user_hand = "チョキ"  # 例: ユーザの手
-result = judge(cpu_hand, user_hand)
-print("結果:", result)
+
